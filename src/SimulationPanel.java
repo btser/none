@@ -1,3 +1,5 @@
+
+
 import java.awt.*;
 import java.io.File;
 import java.util.ArrayList;
@@ -18,9 +20,9 @@ public class SimulationPanel extends JPanel {
 
         // Nạp ảnh nền ngã tư
         try {
-            bgImage = ImageIO.read(new File("resources/background_intersection.png"));
+            bgImage = ImageIO.read(new File("src/resources/background_intersection.png"));
         } catch (Exception e) {
-            System.out.println("[LỖI] Không tìm thấy ảnh nền background_intersection.png");
+            System.out.println("[Error] Cannot found background_intersection.png");
         }
 
         // TẠO DỮ LIỆU XE GIẢ LẬP ĐỂ TEST ĐỘC LẬP

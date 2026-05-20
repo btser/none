@@ -17,29 +17,29 @@ public class SoundSystem {
     }
 
     public static void playCarHorn() {
-        playSound("car_horn.wav");
+        playSound("src/resources/car_horn.wav");
     }
     public static void playTruckHorn() {
-        playSound("truck_horn.wav");
+        playSound("src/resources/truck_horn.wav");
     }
     public static void playMotorbikeHorn() {
-        playSound("motorbike_horn.wav");
+        playSound("src/resources/motorbike_horn.wav");
     }
 
     public static void playAmbulanceSiren() {
-        playSound("ambulance_siren.wav");
+        playSound("src/resources/ambulance_siren.wav");
     }
     public static void playFireTruckSiren() {
-        playSound("fire_truck_siren.wav");
+        playSound("src/resources/fire_truck_siren.wav");
     }
     public static void playPoliceSiren() {
-        playSound("police_siren.wav");
+        playSound("src/resources/police_siren.wav");
     }
 
     public static void playCarTurnSignal() {
-        playSound("car_turn_signal.wav");
+        playSound("src/resources/car_turn_signal.wav");
     }
     public static void playTruckTurnSignal() {
-        playSound("truck_turn_signal.wav");
+        playSound("src/resources/truck_turn_signal.wav");
     }
 }
