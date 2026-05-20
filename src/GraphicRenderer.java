@@ -16,9 +16,9 @@ public class GraphicRenderer {
     // Hàm nạp ảnh từ thư mục resources
     private void loadSprites() {
         try {
-            vehicleSprites.put("Car", ImageIO.read(new File("resources/car.png")));
-            vehicleSprites.put("Motorbike", ImageIO.read(new File("resources/motorbike.png")));
-            vehicleSprites.put("Ambulance", ImageIO.read(new File("resources/ambulance.png")));
+            vehicleSprites.put("Car", ImageIO.read(new File("src/resources/car.png")));
+            vehicleSprites.put("Motorbike", ImageIO.read(new File("src/resources/motorbike.png")));
+            vehicleSprites.put("Ambulance", ImageIO.read(new File("src/resources/ambulance.png")));
             System.out.println("=== Đã tải toàn bộ ảnh xe thành công! ===");
         } catch (Exception e) {
             System.out.println("[LỖI] Không tìm thấy file ảnh trong thư mục resources/. Đang dùng hình vẽ tạm thời.");
