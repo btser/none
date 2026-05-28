@@ -66,7 +66,7 @@ public class ControlPanel extends JPanel {
         btnAddVehicle.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //System.out.println("[UI] Clicked: Thêm xe -> Gọi hàm spawn của Bảo.");
+                //System.out.println("[UI] Clicked: Thêm xe -> Gọi hàm spawn");
             }
         });
 
@@ -121,5 +121,13 @@ public class ControlPanel extends JPanel {
 
     public JButton getBtnResume() {
         return this.btnResume;
+    }
+
+    public JButton getBtnAddVehicle() {
+        return btnAddVehicle;
+    }
+
+    public void setBtnAddVehicle(JButton btnAddVehicle) {
+        this.btnAddVehicle = btnAddVehicle;
     }
 }
